@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1
+
+* Moving the javascript file into the footer.
+
 ## 1.2.0
 
 * Lazy loading the button scripts.

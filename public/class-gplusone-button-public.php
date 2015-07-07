@@ -55,16 +55,16 @@ class GPlusOne_Button_Public {
 	}
 
 
-	/**
-	 * Outputs in the footer on the public-facing side of the site
-	 *
-	 * @since   1.0.0
-	 */
-	public function wp_footer() {
+    /**
+     * Enqueues our custom JS script that activates the button
+     *
+     * @since 1.2.0
+     */
+    public function enqueue_scripts() {
 
-		include plugin_dir_path( dirname( __FILE__ ) ) . 'public/display/google-plus-script.inc';
+        wp_enqueue_script( 'gplusone-button', plugins_url( 'js/gplusone-button.js', __FILE__ ), array('jquery') );
 
-	}
+    }
 
 	/**
 	 * Registers all shortcodes

@@ -9,7 +9,7 @@
  * Plugin Name:       Google Plus Button
  * Plugin URI:        https://github.com/bdeleasa/gplusone-button
  * Description:       Enables a shortcode for outputting a Google +1 button.
- * Version:           1.2.0
+ * Version:           1.2.1
  * Author:            Brianna Deleasa
  * Author URI:        http://briannadeleasa.com
  * License:           GPL-2.0+

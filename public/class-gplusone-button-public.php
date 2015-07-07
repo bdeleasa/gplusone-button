@@ -62,7 +62,7 @@ class GPlusOne_Button_Public {
      */
     public function enqueue_scripts() {
 
-        wp_enqueue_script( 'gplusone-button', plugins_url( 'js/gplusone-button.js', __FILE__ ), array('jquery') );
+        wp_enqueue_script( 'gplusone-button', plugins_url( 'js/gplusone-button.js', __FILE__ ), array('jquery'), null, true );
 
     }
 
